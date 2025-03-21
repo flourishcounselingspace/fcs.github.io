@@ -1,0 +1,65 @@
+/* 404Page.css */
+
+/* Container for the 404 Page */
+.notfound-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+/* Content section inside the container */
+.notfound-content {
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Large title style for 404 */
+.notfound-title {
+  font-size: 100px;
+  font-weight: bold;
+  color: #ff6347;
+  margin: 0;
+}
+
+/* Message for the user */
+.notfound-message {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Style for the button */
+.notfound-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.notfound-button:hover {
+  background-color: #ff4500;
+}
+
+/* Image container styling */
+.notfound-image-container {
+  margin-top: 30px;
+}
+
+/* Image style */
+.notfound-image {
+  width: 300px;
+  height: auto;
+}
