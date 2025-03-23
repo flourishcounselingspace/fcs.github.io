@@ -79,8 +79,7 @@
     color: red !important;
   } 
    @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
+    .navbar  {
       align-items: center;
       padding: 10px;
     }
@@ -88,10 +87,10 @@
         width: 200px !important;
       }
     .navbar ul {
-      flex-direction: column;
       align-items: center;
       padding: 0;
       width: 100%;
+      margin: 0;
     }
   
     .navbar ul li {
