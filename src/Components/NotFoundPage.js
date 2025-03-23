@@ -1,5 +1,5 @@
 import React from 'react';
-import notfound  from '../assets/404.jpg';
+// import notfound  from '../assets/404.jpg';
 import { useNavigate } from 'react-router-dom'; // If you're using react-router for navigation
 import './NotFoundPage.css'; // Import the CSS file
 const NotFoundPage = () => {
@@ -16,13 +16,13 @@ const NotFoundPage = () => {
         <p className="notfound-message">Oops! The page you're looking for does not exist.</p>
         <button className="notfound-button" onClick={handleGoHome}>Go to Home</button>
       </div>
-      <div className="notfound-image-container">
+      {/* <div className="notfound-image-container">
         <img
           src={notfound} // Add an image here (e.g., an illustration or icon for 404)
           alt="404 Not Found"
           className="notfound-image"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

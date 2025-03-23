@@ -1,26 +1,10 @@
-// import React from "react";
-// import './Home.css'
-// function Home() {
-//   return (
-//     <div className="home-box">
-//      <h1>Home component
-
-//       </h1>
-//     </div>
-
-//   );
-
-// }
-
-// export default Home;
-
 // ContentSections.js
 import React from "react";
-import "./Home.css"; // Import the CSS file
+import "./ImcGoal.css"; // Import the CSS file
 
-const Home = () => {
+const ImcGoal = () => {
   return (
-    <div>
+    <div className="defaultMargin">
       <section className="section" id="internships">
         <h2 className="title">Internship Opportunities</h2>
         <p>
@@ -90,4 +74,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ImcGoal;

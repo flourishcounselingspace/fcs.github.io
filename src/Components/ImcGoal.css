@@ -9,7 +9,9 @@
 
 
 /* ContentSections.css */
-
+.defaultMargin{
+  padding: 2% 10% 0 10%;
+}
 .section {
   padding: 40px;
   margin: 20px 20px 0 20px;

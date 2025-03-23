@@ -55,7 +55,9 @@ const ContactUs = () => {
       </div>
 
       <div className="contact-us-image">
-        <img src={contact} height='200' width='400' alt="Contact Us" />
+        <a href="https://wa.me/919937190927" target="_blank" rel="noopener noreferrer">
+          <img src={contact} height="200" width="400" alt="Contact Us" style={{ cursor: "pointer" }} />
+        </a>
       </div>
     </div>
   );

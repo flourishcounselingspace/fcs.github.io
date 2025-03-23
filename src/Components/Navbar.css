@@ -1,0 +1,106 @@
+ 
+ .navbar {
+    background-color: rgb(161, 167, 164);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: fixed; /* Keeps navbar fixed at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+   .whatsapp-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+  } 
+  
+  .navbar ul {
+    display: flex;
+  gap: 10px; /* Spacing between items */
+  list-style: none;
+    padding: 10px, 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+  background: lightcyan;
+  width: fit-content;
+  flex-wrap: wrap;
+  }
+  
+  .navbar ul li {
+    padding: 5px, 10px;
+    margin: 0 20px;
+    padding: 5px;
+    font-size: 20px;
+    white-space:nowrap;
+  }
+  
+ .navbar ul a {
+    text-decoration: none;
+    color: #0d6efd;
+  }
+  .offcanvas {
+    width: 300px !important;
+  }
+  
+   
+  .offcanvas-body .nav-link {
+    color: #0d6efd;
+  }
+  /* .navbar-nav .nav-link.active {
+    color: red !important;
+  }  */
+  .navbar-nav .nav-link {
+    color: #0d6efd;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Ensure Active NavLink is Red */
+  .navbar-nav .nav-link.active,
+  .navbar ul .nav-link.active {
+    color: red !important;
+  }
+
+  a.active {
+    color: red !important;
+  } 
+   @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .offcanvas {
+        width: 200px !important;
+      }
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      width: 100%;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+      width: 100%;
+    }
+  
+    .whatsapp-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
