@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar fixed-top">
+    <nav className="navbar">
       <div>
         <img src={imclogo} alt="Logo" width="70" height="70" />
       </div>
