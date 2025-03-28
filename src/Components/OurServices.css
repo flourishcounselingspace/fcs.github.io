@@ -18,7 +18,7 @@
 .title {
   text-align: center;
   font-size: 3rem;
-  color: #0047bb;
+  color: black;
   margin-bottom: 40px;
 }
 
@@ -41,7 +41,7 @@
 /* Service Title */
 .service-title {
   font-size: 2rem;
-  color: #0047bb;
+  color: black;
   margin-bottom: 15px;
   align-items: center;
 }

@@ -8,8 +8,8 @@
 }
 
 .counseling-content {
-  max-width: 1000px;
-  background: #ffffff;
+  /* max-width: 1000px; */
+  background: linear-gradient(#f7f0e6 60%, #fffcf6 80%);
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
